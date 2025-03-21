@@ -22,6 +22,13 @@
     font-size: 76px;
 
 } */
+.page-container {
+
+    display: flex;
+
+}
+
+
 
 
 h1{
@@ -61,11 +68,25 @@ h1{
     align-items: center;
     justify-content: center;
     height: 80vh;
+    width: 50vw;
 
 }
 
 .logo {
 
     height: 60px;
+
+}
+
+.robo-image {
+
+    background-image: url(../assets/imgs/Sidebar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+
+    width: 50vw;
+    height: 100vh;
 
 }
